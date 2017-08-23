@@ -1,32 +1,21 @@
-# Smartcab
-Udacity MLND: Project: Reinforcement Learning - Train a Smartcab to Drive
+# Machine Learning Engineer Nanodegree
+# Reinforcement Learning
+## Project: Train a Smartcab How to Drive
 
-![Final Q-Learning Results](final-qlearning-results.png)
+### Install
 
-Smartcab is a *project result submission* for Udacity Smartcab project.  It is a worksheet in **Jupyter Notebook**, in which we will use reinforcement machine learning techniques to construct an optimized Q-Learning driving agent that will navigate a *Smartcab* through its environment towards a goal.
+This project requires **Python 2.7** with the [pygame](https://www.pygame.org/wiki/GettingStarted
+) library installed
 
-## Installation
+### Code
 
-This project uses python 2.7.12.  Clone the GitHub repository and use Pip to install jupyter
+Template code is provided in the `smartcab/agent.py` python file. Additional supporting python code can be found in `smartcab/enviroment.py`, `smartcab/planner.py`, and `smartcab/simulator.py`. Supporting images for the graphical user interface can be found in the `images` folder. While some code has already been implemented to get you started, you will need to implement additional functionality for the `LearningAgent` class in `agent.py` when requested to successfully complete the project. 
 
-```
-$ git clone https://github.com/diyjac/smartcab.git
-$ pip install jupyter
-```
+### Run
 
-## Usage
+In a terminal or command window, navigate to the top-level project directory `smartcab/` (that contains this README) and run one of the following commands:
 
-Smartcab project results can be viewed by opening its jupyter notebook.
+```python smartcab/agent.py```  
+```python -m smartcab.agent```
 
-```
-$ jupyter notebook smartcab.ipynb
-```
-
-## Contributing
-
-No further updates nor contributions are requested.  This project is static.
-
-## License
-
-Smartcab project results are released under the [MIT License](./LICENSE)
-
+This will run the `agent.py` file and execute your agent code.
